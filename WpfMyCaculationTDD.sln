@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMyCaculationTDD", "WpfMyCaculationTDD\WpfMyCaculationTDD.csproj", "{1E041DC8-3254-46C3-8664-2EE3EED70884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E041DC8-3254-46C3-8664-2EE3EED70884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E041DC8-3254-46C3-8664-2EE3EED70884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E041DC8-3254-46C3-8664-2EE3EED70884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E041DC8-3254-46C3-8664-2EE3EED70884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC7E71DD-022A-453E-AB20-53F6B08D8290}
+	EndGlobalSection
+EndGlobal
