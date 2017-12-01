@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleCaculation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace WpfMyCaculationTDD
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void _addButton_Click(object sender, RoutedEventArgs e)
+        {
+            int first = int.Parse(this._firstTextBox.Text);
+            int second = int.Parse(this._secondTextBox.Text);
+
+            var total = new Caculator();
+
+            var result = total.Add(first, second);
+
+            this._totalTextBlock.Text = result.ToString();
         }
     }
 }
