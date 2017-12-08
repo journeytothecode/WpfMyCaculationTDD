@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleCaculation
 {
-    public class Caculator
+    public class Calculator
     {
         public int Add(int first, int second)
         {

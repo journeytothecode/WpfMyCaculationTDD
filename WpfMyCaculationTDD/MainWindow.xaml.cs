@@ -31,7 +31,7 @@ namespace WpfMyCaculationTDD
             int first = int.Parse(this._firstTextBox.Text);
             int second = int.Parse(this._secondTextBox.Text);
 
-            var total = new Caculator();
+            var total = new Calculator();
 
             var result = total.Add(first, second);
 

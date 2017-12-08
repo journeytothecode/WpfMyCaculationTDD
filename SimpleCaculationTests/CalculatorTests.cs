@@ -15,7 +15,7 @@ namespace SimpleCaculation.Tests
         [TestMethod]
         public void Add_AddedTwoInt_ReturnEqual()
         {
-            var cal = new Caculator();
+            var cal = new Calculator();
 
             var result = cal.Add(1, 3);
 
@@ -25,7 +25,7 @@ namespace SimpleCaculation.Tests
         [TestMethod]
         public void Divide_TwoIntNotZero_ReturnEqual()
         {
-            var divideNotZero = new Caculator();
+            var divideNotZero = new Calculator();
 
             var result = divideNotZero.Devide(4, 2);
 
@@ -37,7 +37,7 @@ namespace SimpleCaculation.Tests
         [ExpectedException(typeof(DivideByZeroException))]
         public void Divide_TwoIntIsZero_ExpectecedDivideByZeroException()
         {
-            var divideIsZero = new Caculator();
+            var divideIsZero = new Calculator();
 
             var result = divideIsZero.Devide(4, 0);
 
